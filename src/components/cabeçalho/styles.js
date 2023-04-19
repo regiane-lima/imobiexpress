@@ -5,18 +5,20 @@ padding: 25px 150px;
 height: 100px;
 display: flex;
 justify-content:space-between;
-aling-items:center;
+align-items:center;
 background-color:black;
-
+a:visited {
+    color: white;
+}
 
 `
 export const Logo = styled.div`
 display:flex;
 justify-content:space-between;
-aling-items:center;
+align-items:center;
 
 
-img{
+Link{
     width:240px;
     height:130px;
     padding-bottom:60px;
@@ -27,7 +29,7 @@ export const Menu = styled.div`
 ul{
     display:flex;
 justify-content:space-between;
-aling-items:center;
+align-items:center;
 margin-top:20px;
 background-color: DarkBlue;
 color:white;

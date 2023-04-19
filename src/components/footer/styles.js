@@ -7,7 +7,9 @@ margin-top:2em;
 padding-top:20px;
 background-color:black;
 color:white;
-
+a:visited {
+    color: white;
+}
 
 
 `
@@ -47,7 +49,7 @@ border-top:1px solid rgba(0,0,0,0.1);
 
 ul{
     display:flex;
-    aling-items:center;
+    align-items:center;
     li{
         span{
             margin-left:15px;

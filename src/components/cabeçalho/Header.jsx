@@ -1,20 +1,23 @@
+import { Link } from "react-router-dom"
 import React from "react";
 import { Container } from "./styles"
 import { Logo } from "./styles"
 import { Menu } from "./styles"
-import logoimg from "../../assets/logo.png"
+import logoImg from "../../assets/logo.png"
 const Header = () => {
   return (
     <Container>
       <Logo>
-        <img src={logoimg}  alt="Logotipo imobiliaria IMOBIEXPRESS" />
+        <Link to="/"><img src={logoImg} alt="Logotipo imobiliaria IMOBIEXPRESS" /></Link>
       </Logo>
       <Menu>
         <ul>
           <li>
-            <span>
-              Cadastro/Login
-            </span>
+            <Link to="/Login">
+              <span>
+                Cadastro/Login
+              </span>
+            </Link>
           </li>
         </ul>
       </Menu>

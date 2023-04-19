@@ -17,6 +17,9 @@ background-image: url('https://images.unsplash.com/photo-1635108201018-94bbbfac4
     height:100%;
     z-index:1;
 }
+a:visited {
+    color: white;
+}
 `
 
 export const Text = styled.div`
